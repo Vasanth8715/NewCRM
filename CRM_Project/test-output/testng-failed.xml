@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.HMS.ObjectRepositoryUtility.CreateOrgTest">
+      <class name="com.contactTest.CreateContactTest">
         <methods>
           <include name="configBS"/>
           <include name="configBC"/>
           <include name="configAS"/>
           <include name="configAC"/>
           <include name="configBM"/>
+          <include name="createContactTest"/>
           <include name="configAM"/>
-          <include name="CreateOrgnizationWithPhoneNumber_Test"/>
         </methods>
-      </class> <!-- com.HMS.ObjectRepositoryUtility.CreateOrgTest -->
+      </class> <!-- com.contactTest.CreateContactTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
