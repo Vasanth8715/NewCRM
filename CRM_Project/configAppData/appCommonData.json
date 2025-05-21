@@ -1,0 +1,7 @@
+{
+"browser" : "chrome",
+"url" : "http://49.249.28.218:8081/AppServer/domain.html#CRM",
+"username" : "admin",
+"password" : "Test@12345",
+"timeout" : 20
+}
