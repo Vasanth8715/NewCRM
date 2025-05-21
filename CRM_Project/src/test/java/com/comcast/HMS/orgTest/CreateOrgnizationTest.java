@@ -59,7 +59,7 @@ public class CreateOrgnizationTest extends BaseClasss
 			}
 	}
 		@Test(groups = "regressionTest")
-		public void CreateOrgnizationWithPhoneNumberTest(Object PhoneNumber) throws Throwable
+		public void CreateOrgnizationWithPhoneNumberTest() throws Throwable
 		{
 			/* step 1: read test script data from excel file */
 			String orgName = eLib.getDataFromExcel("orgNameModule", 7, 2) + jLib.getRandomNumber();

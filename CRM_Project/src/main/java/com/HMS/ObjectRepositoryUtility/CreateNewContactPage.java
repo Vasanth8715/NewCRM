@@ -18,7 +18,7 @@ public class CreateNewContactPage
 	@FindBy(name = "lastname")
 	private WebElement createNewContactTextBox;
 	
-	@FindBy(xpath ="//input[contains(@title,'Save')]")
+	@FindBy(xpath ="//input[@title='Save [Alt+S]']") 
 	private WebElement saveButton;
 	
 	@FindBy(xpath ="//img[@alt='Create Contact...']")

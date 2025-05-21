@@ -34,7 +34,6 @@ public class CreateContactTest extends BaseClasss
 		/* Step 4: enter all the details and create new contact */
 		CreateNewContactPage ccp = new CreateNewContactPage(driver);
 		ccp.getCreateNewContactTextBox(LastName);
-		ccp.getSaveButton().click();
 
 		/* verify Header Last Name message expected result */
 		String actLastName = driver.findElement(By.id("dtlview_Last Name")).getText();
@@ -66,7 +65,6 @@ public class CreateContactTest extends BaseClasss
 		String startDate = jLib.getRequiredDateYYYYDDMM(30);
 		CreateNewContactPage ccp = new CreateNewContactPage(driver);
 	    ccp.getCreateNewContactTextBox(LastName, endDate, startDate);
-	    ccp.getSaveButton().click();
 		
 		/* verify Header phone number info expected result: */
 		String actStartDate = driver.findElement(By.id("dtlview_Support Start Date")).getText();
