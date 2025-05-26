@@ -9,6 +9,8 @@
           <include name="configBC"/>
           <include name="configAS"/>
           <include name="configAC"/>
+          <include name="createContactWithOrgTest"/>
+          <include name="createContactWithSupportDateTest"/>
           <include name="configBM"/>
           <include name="createContactTest"/>
           <include name="configAM"/>

@@ -65,6 +65,7 @@ public class CreateContactTest extends BaseClasss
 		String startDate = jLib.getRequiredDateYYYYDDMM(30);
 		CreateNewContactPage ccp = new CreateNewContactPage(driver);
 	    ccp.getCreateNewContactTextBox(LastName, endDate, startDate);
+	    
 		
 		/* verify Header phone number info expected result: */
 		String actStartDate = driver.findElement(By.id("dtlview_Support Start Date")).getText();
