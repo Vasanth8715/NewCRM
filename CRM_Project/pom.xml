@@ -10,11 +10,7 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.18.1</version>
 		</dependency>
-		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-java</artifactId>
-			<version>4.12.0</version>
-		</dependency>
+		
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
@@ -161,4 +157,19 @@
 		</build>
 		</profile>
 	</profiles>
+	
+	<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version> <!-- This is safe for Java 8–17 -->
+            <configuration>
+                <source>17</source>   <!-- Set to 11 or 17 based on your JDK -->
+                <target>17</target>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+
 </project>
